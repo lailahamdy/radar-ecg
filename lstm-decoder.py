@@ -1,7 +1,6 @@
 import torch
 import torch.nn as nn
 import numpy as np
-import math
 
 ###### Input dimensions: (Batch, T, 4)
 # Output dimensions: (Batch, 1, 500)
