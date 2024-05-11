@@ -2,7 +2,7 @@
 
 ## Introduction
 
-This project presents a novel approach to contactless electrocardiogram (ECG) monitoring using millimeter-wave radar technology. Our work is inspired by the paper ["Contactless Electrocardiogram Monitoring with Millimeter Wave Radar"](https://ieeexplore.ieee.org/document/9919401) , where they propose innovative methods for remote cardiac activity monitoring. Collaborating closely with the authors, we obtained access to their proprietary (private) dataset, enabling us to implement their model with our own modifications. 
+This project presents a novel approach to contactless electrocardiogram (ECG) monitoring using millimeter-wave radar technology. Our work is inspired by the paper ["Contactless Electrocardiogram Monitoring with Millimeter Wave Radar"](https://ieeexplore.ieee.org/document/9919401) , where they propose innovative methods for remote cardiac activity monitoring. We contacted the authors and obtained access to their proprietary (private) dataset, enabling us to implement their model with our own modifications. 
 We also collected our own dataset using novel radar sensor and patient monitors.
 ![Dataset collection setup:](./Picture1.jpg)
 
@@ -25,7 +25,7 @@ The temporal encoder module is dedicated to processing temporal characteristics 
 
 ### Spatial Encoder
 
-Incorporating advanced radar signal processing techniques, the spatial encoder segment focuses on capturing spatial information relevant to cardiac monitoring. By analyzing radar reflections, it identifies spatial patterns indicative of cardiac activity.
+Incorporating advanced radar signal processing techniques, the spatial encoder segment focuses on capturing spatial information relevant to cardiac monitoring using transformers. By analyzing radar reflections, it identifies spatial patterns indicative of cardiac activity.
 
 ### Fused ECG Encoder
 
